@@ -1,0 +1,23 @@
+namespace BrunoFontes.Portifolio.Persistent.EF.Migrations
+{
+    using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Migrations;
+    using System.Linq;
+
+    internal sealed class Configuration : DbMigrationsConfiguration<BrunoFontes.Portifolio.Persistent.EF.Context.ProductsBrandsDbContext>
+    {
+        public Configuration()
+        {
+            AutomaticMigrationsEnabled = false;
+        }
+
+        protected override void Seed(BrunoFontes.Portifolio.Persistent.EF.Context.ProductsBrandsDbContext context)
+        {
+            //  This method will be called after migrating to the latest version.
+
+            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
+            //  to avoid creating duplicate seed data.
+        }
+    }
+}
