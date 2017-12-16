@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunoFontes.Portifolio.Domain", "BrunoFontes.Portifolio.Domain\BrunoFontes.Portifolio.Domain.csproj", "{586621EE-9CB7-493A-A441-24A3D141C798}"
 EndProject
@@ -12,12 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunoFontes.Portifolio.Repository.ProdBrnd.EF", "BrunoFontes.Portifolio.Repository.ProdBrnd.EF\BrunoFontes.Portifolio.Repository.ProdBrnd.EF.csproj", "{56C79D16-1641-4DE1-9988-1483933BFF49}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunoFontes.Portifolio.WinFormView", "BrunoFontes.Portifolio.WinFormView\BrunoFontes.Portifolio.WinFormView.csproj", "{43ADFD02-4F76-4CCD-9979-78EAF19C2BBD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunoFontes.Portifolio.ASP.NETView", "BrunoFontes.Portifolio.ASP.NETView\BrunoFontes.Portifolio.ASP.NETView.csproj", "{18B59D55-2176-4A1D-B293-8A7D692B6B67}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunoFontes.Portifolio.ASP.NETView.Tests", "BrunoFontes.Portifolio.ASP.NETView.Tests\BrunoFontes.Portifolio.ASP.NETView.Tests.csproj", "{CDBA2A7B-CFFC-40AF-9673-2B233BB183A0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunoFontes.Portifolio.CoreView", "BrunoFontes.Portifolio.CoreView\BrunoFontes.Portifolio.CoreView.csproj", "{D72B6FBA-C7BA-484B-8837-D3F311E45AA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,18 +39,6 @@ Global
 		{43ADFD02-4F76-4CCD-9979-78EAF19C2BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43ADFD02-4F76-4CCD-9979-78EAF19C2BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43ADFD02-4F76-4CCD-9979-78EAF19C2BBD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{18B59D55-2176-4A1D-B293-8A7D692B6B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18B59D55-2176-4A1D-B293-8A7D692B6B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18B59D55-2176-4A1D-B293-8A7D692B6B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18B59D55-2176-4A1D-B293-8A7D692B6B67}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CDBA2A7B-CFFC-40AF-9673-2B233BB183A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDBA2A7B-CFFC-40AF-9673-2B233BB183A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDBA2A7B-CFFC-40AF-9673-2B233BB183A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDBA2A7B-CFFC-40AF-9673-2B233BB183A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D72B6FBA-C7BA-484B-8837-D3F311E45AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D72B6FBA-C7BA-484B-8837-D3F311E45AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D72B6FBA-C7BA-484B-8837-D3F311E45AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D72B6FBA-C7BA-484B-8837-D3F311E45AA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
